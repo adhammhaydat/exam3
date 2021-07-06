@@ -1,0 +1,38 @@
+body{
+  display: grid;
+  grid-template-rows: 100px 1fr 50px;
+  gap: 50px;
+}
+header{
+  background-color: rgb(65, 63, 63);
+}
+main{
+  display: flex;
+  justify-content: space-around;
+}
+table,th,td{
+  text-align: center;
+  width: 400px;
+  border: 2px solid black;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.sec{
+  display: flex;
+  justify-content: center;
+  padding:10px 0px;
+  height:auto;
+  width: 500px;
+  background-color: rgb(131, 125, 125);
+}
+.sec1{
+  display: flex;
+  justify-content: center;
+  padding:10px 0px;
+  height:200px;
+  width:300px;
+  background-color: rgb(131, 125, 125);
+}
